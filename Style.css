@@ -1,0 +1,113 @@
+.red-hat-display-<uniquifier> {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+}
+
+body{
+    background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+    width: 450px;
+    position: absolute;
+    left: calc(50% - (450px / 2));
+    bottom: calc(50% - (652.67px / 2));
+    border-radius: 30px;
+}
+
+/* image and Text */
+
+.header img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.text h1{
+    color:hsl(223, 47%, 23%);
+
+}
+
+.text p{
+    display: flex;
+    justify-self: center;
+    width: 355px;
+    color: hsl(224, 23%, 55%);
+}
+
+/* Logo, Name and Change */
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    left: calc(50% - (350px / 2));
+    background-color: hsl(225deg 100% 96.81%);
+    border-radius: 10px;
+}
+
+.check .logo{
+    padding-left: 10px;
+}
+
+.M_name ul{
+    margin-right: 75px;
+    color: hsl(223, 47%, 23%);
+    list-style-type: none;
+}
+
+.M_name ul li{
+    color: hsl(224, 23%, 55%);
+    transition: .3s;
+}
+
+.change a:hover{
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+}
+
+/* Payment */
+
+.pay button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 45px;
+    left: calc(50% - (350px / 2));
+    border-radius: 10px;
+    border: none;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    transition: .3s;
+}
+
+.pay button:hover{
+    background-color: hsl(245deg 52.81% 62.96%);
+    box-shadow: 0px 15px 35px 5px hsl(223, 47%, 23%);
+}
+
+/* Cancle */
+
+.cancle a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancle a:hover{
+    color: hsl(223, 47%, 23%);
+}
